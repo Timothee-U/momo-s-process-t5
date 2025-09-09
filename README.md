@@ -20,8 +20,8 @@ System Architecture: https://miro.com/app/board/uXjVJK7oTwk=/
 Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 
 # Project Structure
-<img width="230" height="235" alt="image" src="https://github.com/user-attachments/assets/200920b6-a246-4593-845d-7ae741f54b32" /> 
-<img width="286" height="332" alt="image" src="https://github.com/user-attachments/assets/11ec75e9-7c19-40dd-9ca3-42e0ea283e1d" /> 
+<img width="230" height="235" alt="image" src="https://github.com/user-attachments/assets/200920b6-a246-4593-845d-7ae741f54b32" />                                         
+<img width="286" height="332" alt="image" src="https://github.com/user-attachments/assets/11ec75e9-7c19-40dd-9ca3-42e0ea283e1d" />                                         
 <img width="186" height="86" alt="image" src="https://github.com/user-attachments/assets/43975c00-570c-43c6-9af5-6354e1d85b6f" /> 
 
 # Setup Instructions
