@@ -111,7 +111,7 @@ Scrum board setup (Olademeji)
 README.md documentation (Sandrine)
 
 # Next Sprint Planning
-Database schema design
-ETL pipeline development
-Frontend dashboard creation
-Integration testing
+- Database schema design
+- ETL pipeline development
+- Frontend dashboard creation
+- Integration testing
