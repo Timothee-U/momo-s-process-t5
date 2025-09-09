@@ -38,7 +38,7 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 │   ├── input/  
 │   │   └── momo_transactions.xml  
 │   ├── output/ 
-│   │   └── analytics_data.json  
+│   │    └── analytics_data.json  
 │   ├── momo_database.sqlite3  
 │   └── monitoring/  
 │       ├── pipeline.log  
