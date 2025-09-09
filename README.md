@@ -168,9 +168,13 @@ Version Control: Git/GitHub
 
 ## Team Responsibilities
 # Current Sprint Deliverables
+
 GitHub repository setup (Timothee)
+
 System architecture diagram (Naomie)
+
 Scrum board setup (Olademeji)
+
 README.md documentation (Sandrine)
 
 # Next Sprint Planning
