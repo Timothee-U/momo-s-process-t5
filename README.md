@@ -21,46 +21,87 @@ Project Management: https://trello.com/invite/b/68bf6d4ff57bdd9777616bf6/ATTI736
 ## Project Structure
 .
 ├── README.md                         # Setup, run, overview
+
 ├── .env.example                      # DATABASE_URL or path to SQLite
+
 ├── requirements.txt                  # lxml/ElementTree, dateutil, (FastAPI optional)
+
 ├── dashboard.html                    # Main dashboard entry point
+
 ├── frontend/                         # Web interface (renamed from web/)
+
 │   ├── styles/
+
 │   │   ├── main.css                  # Dashboard styling
+
 │   │   └── components.css            # Component-specific styles
+
 │   ├── scripts/
+
 │   │   ├── analytics.js              # Data visualization and charts
+
 │   │   └── api_handler.js            # API communication
+
 │   └── assets/                       # Images, icons, fonts
+
 ├── storage/                          # Data management (renamed from data/)
+
 │   ├── input/                        # Raw XML files (was raw/)
+
 │   │   └── momo_transactions.xml
+
 │   ├── output/                       # Processed data (was processed/)
+
 │   │   └── analytics_data.json       # Dashboard data feed
+
 │   ├── momo_database.sqlite3         # Main transaction database
+
 │   └── monitoring/                   # System logs (was logs/)
+
 │       ├── pipeline.log              # ETL process logs
+
 │       └── errors/                   # Failed processing records
+
 ├── pipeline/                         # ETL operations (renamed from etl/)
+
 │   ├── __init__.py
+
 │   ├── settings.py                   # Configuration and constants
+
 │   ├── xml_processor.py              # XML parsing and extraction
+
 │   ├── data_cleaner.py               # Data normalization and validation
+
 │   ├── transaction_classifier.py     # Transaction categorization
+
 │   ├── database_manager.py           # SQLite operations and queries
+
 │   └── main_runner.py                # Main ETL orchestration
+
 ├── services/                         # API layer (renamed from api/)
+
 │   ├── __init__.py
+
 │   ├── web_api.py                    # FastAPI application
+
 │   ├── database_service.py           # Database connection utilities
+
 │   └── response_models.py            # API response schemas
+
 ├── automation/                       # Deployment scripts (renamed from scripts/)
+
 │   ├── run_pipeline.sh               # Execute full ETL process
+
 │   ├── generate_dashboard_data.sh    # Export analytics data
+
 │   └── start_server.sh               # Launch web server
+
 └── quality_assurance/                # Testing suite (renamed from tests/)
+
     ├── test_xml_processing.py        # XML parsing tests
+    
     ├── test_data_cleaning.py         # Data validation tests
+    
     └── test_classification.py        # Categorization logic tests
 
 ## Setup Instructions
