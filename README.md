@@ -25,53 +25,6 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 <img width="824" height="326" alt="image" src="https://github.com/user-attachments/assets/c1d14836-4771-45f6-8993-d651937a3100" />
 
 
-.                                                                                                                                                 
-├── README.md  
-├── .env.example  
-├── requirements.txt  
-├── dashboard.html  
-├── frontend/  
-│   ├── styles/  
-│   │   ├── main.css  
-│   │   └── components.css  
-│   ├── scripts/  
-│   │   ├── analytics.js  
-│   │   └── api_handler.js  
-│   └── assets/  
-├── storage/  
-│   ├── input/  
-│   │   └── momo_transactions.xml  
-│   ├── output/ 
-│   │    └── analytics_data.json  
-│   ├── momo_database.sqlite3  
-│   └── monitoring/  
-│       ├── pipeline.log  
-│       └── errors/  
-├── pipeline/  
-│   ├── __init__.py  
-│   ├── settings.py  
-│   ├── xml_processor.py  
-│   ├── data_cleaner.py  
-│   ├── transaction_classifier.py  
-│   ├── database_manager.py  
-│   └── main_runner.py  
-├── services/  
-│   ├── __init__.py  
-│   ├── web_api.py  
-│   ├── database_service.py  
-│   └── response_models.py  
-├── automation/                                                                                                                                         
-│   ├── run_pipeline.sh                                                                                                                                              
-│   ├── generate_dashboard_data.sh                                                                                                                               
-│   └── start_server.sh                                                                                                                                     
-└── tests/                                                                                                                                  
-    ├── test_xml_processing.py                                                                                                
-    ├── test_data_cleaning.py                                                                                                                       
-    └── test_classification.py                                                                                                           
-
-
-
-
 # Setup Instructions
 ## Prerequisites
 Python
