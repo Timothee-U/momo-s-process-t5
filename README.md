@@ -13,7 +13,7 @@ A comprehensive ETL (Extract, Transform, Load) pipeline and dashboard system for
 **Sandrine Dushimimana** - Software developer
 
 ## Architecture Diagram
-System Architecture: https://miro.com/app/board/uXjVJKkj0Zg=/?share_link_id=844505314297
+System Architecture: https://miro.com/app/board/uXjVJK7oTwk=/
 
 ## Scrum Board
 Project Management: https://trello.com/invite/b/68bf6d4ff57bdd9777616bf6/ATTI7367a1d02e2da2d9696262bdb1d51b1546D3C578/momo-trananalytics-scrum-board
