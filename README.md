@@ -5,8 +5,11 @@ A comprehensive ETL (Extract, Transform, Load) pipeline and dashboard system for
 
 ## Team Members
 **Timothee Uwayesu** - Repository Manager & Documentation Lead
+
 **Naomi Bamgbose**  - System Architecture Designer (Miro)
+
 **Oladimeji Ayanleke** - Scrum Master & Project Coordinator (Trello)
+
 **Sandrine Dushimimana** - Software developer
 
 ## Architecture Diagram
