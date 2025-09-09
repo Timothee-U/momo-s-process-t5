@@ -21,8 +21,8 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 
 # Project Structure
 .
-├── README.md 
-├── .env.example 
+├── README.md
+├── .env.example
 ├── requirements.txt
 ├── dashboard.html
 ├── frontend/
@@ -33,7 +33,7 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 │   │   ├── analytics.js
 │   │   └── api_handler.js
 │   └── assets/
-├── storage/  
+├── storage/
 │   ├── input/
 │   │   └── momo_transactions.xml
 │   ├── output/
@@ -52,7 +52,7 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 │   └── main_runner.py
 ├── services/
 │   ├── __init__.py
-│   ├── web_api.py 
+│   ├── web_api.py
 │   ├── database_service.py
 │   └── response_models.py
 ├── automation/
@@ -63,6 +63,7 @@ Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
     ├── test_xml_processing.py
     ├── test_data_cleaning.py
     └── test_classification.py
+
 
 # Setup Instructions
 ## Prerequisites
