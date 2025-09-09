@@ -1,4 +1,5 @@
-# momo-s-process-t5
+# Project name
+MoMo ETL & Dashboard
 
 # Project Description
 A comprehensive ETL (Extract, Transform, Load) pipeline and dashboard system for processing mobile money (MoMo) transaction data from XML files. The system cleanses and normalizes transaction data, stores it in a SQLite database, and provides an interactive web-based analytics dashboard for transaction insights and reporting.
