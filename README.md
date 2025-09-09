@@ -20,11 +20,56 @@ System Architecture: https://miro.com/app/board/uXjVJK7oTwk=/
 Project Management: https://trello.com/b/h6OMYoBj/momo-s-process-t5
 
 # Project Structure
-<img width="230" height="235" alt="image" src="https://github.com/user-attachments/assets/200920b6-a246-4593-845d-7ae741f54b32" />  
 
-<img width="286" height="332" alt="image" src="https://github.com/user-attachments/assets/11ec75e9-7c19-40dd-9ca3-42e0ea283e1d" />
+<img width="834" height="325" alt="image" src="https://github.com/user-attachments/assets/b660d857-3619-47ed-9b56-a0cec57ea5bd" />
+<img width="824" height="326" alt="image" src="https://github.com/user-attachments/assets/c1d14836-4771-45f6-8993-d651937a3100" />
 
-<img width="186" height="86" alt="image" src="https://github.com/user-attachments/assets/43975c00-570c-43c6-9af5-6354e1d85b6f" /> 
+
+.                                                                                                                                                 
+├── README.md  
+├── .env.example  
+├── requirements.txt  
+├── dashboard.html  
+├── frontend/  
+│   ├── styles/  
+│   │   ├── main.css  
+│   │   └── components.css  
+│   ├── scripts/  
+│   │   ├── analytics.js  
+│   │   └── api_handler.js  
+│   └── assets/  
+├── storage/  
+│   ├── input/  
+│   │   └── momo_transactions.xml  
+│   ├── output/ 
+│   │    └── analytics_data.json  
+│   ├── momo_database.sqlite3  
+│   └── monitoring/  
+│       ├── pipeline.log  
+│       └── errors/  
+├── pipeline/  
+│   ├── __init__.py  
+│   ├── settings.py  
+│   ├── xml_processor.py  
+│   ├── data_cleaner.py  
+│   ├── transaction_classifier.py  
+│   ├── database_manager.py  
+│   └── main_runner.py  
+├── services/  
+│   ├── __init__.py  
+│   ├── web_api.py  
+│   ├── database_service.py  
+│   └── response_models.py  
+├── automation/                                                                                                                                         
+│   ├── run_pipeline.sh                                                                                                                                              
+│   ├── generate_dashboard_data.sh                                                                                                                               
+│   └── start_server.sh                                                                                                                                     
+└── tests/                                                                                                                                  
+    ├── test_xml_processing.py                                                                                                
+    ├── test_data_cleaning.py                                                                                                                       
+    └── test_classification.py                                                                                                           
+
+
 
 
 # Setup Instructions
