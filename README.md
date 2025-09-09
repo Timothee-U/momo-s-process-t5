@@ -70,17 +70,28 @@ Step 3: Navigate to http://localhost:8000
 API available at http://localhost:8000
 
 # Features
-## Core Features
-- XML Data Processing: Parse and extract transaction data from XML files
-- Data Cleaning: Normalize amounts, dates, and phone numbers
-- Transaction Categorization: Automatic categorization of transaction types
-- SQLite Storage: Efficient local database storage
-- Web Dashboard: Interactive analytics and reporting interface
-- Logging: Comprehensive ETL process logging and error handling
-## Optional Features (Bonus)
-- REST API: FastAPI endpoints for programmatic data access
-- Real-time Updates: Live dashboard data refresh
-- Advanced Analytics: Statistical analysis and trends
+## Core Features  
+
+- **XML Data Processing** – Parses and extracts transaction data directly from XML files for structured handling.  
+
+- **Data Cleaning** – Normalizes amounts, dates, and phone numbers to ensure consistency and accuracy.  
+
+- **Transaction Categorization** – Automatically classifies transaction types (e.g., deposits, withdrawals, transfers).  
+
+- **SQLite Storage** – Stores processed transactions efficiently in a lightweight, local database.  
+
+- **Web Dashboard** – Provides an interactive web interface for analytics, visualization, and reporting.  
+
+- **Logging** – Captures detailed ETL logs and errors to support monitoring and troubleshooting.  
+
+
+## Optional Features (Bonus)  
+
+- **REST API** – Exposes FastAPI endpoints for seamless programmatic data access.  
+
+- **Real-time Updates** – Enables live refresh of dashboard data without manual reloads.  
+
+- **Advanced Analytics** – Delivers statistical insights, trends, and deeper transaction analysis.  
 
 # Development Workflow
 
