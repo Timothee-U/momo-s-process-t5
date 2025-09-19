@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "fullName": "Naomi",
+      "phoneNumber": "0788553245",
+      "createdAt": "2025-09-18T10:15:30Z"
+    }
+  ],
+  "transactionCategories": [
+    { "categoryId": 1, "name": "Food", "description": "Food purchases" },
+    { "categoryId": 2, "name": "Transport", "description": "Transport Charges" }
+  ],
+  "transactions": [
+    { "transactionId": 1, "amount": 15000.0, "currency": "RWF", "timestamp": "2025-09-18T11:20:00Z", "status": "PENDING", "categoryId": 1 }
+  ],
+  "transactionsParticipants": [
+    { "id": 1, "transactionId": 1, "userId": 1, "role": "payer" },
+    { "id": 2, "transactionId": 1, "userId": 2, "role": "receiver" }
+  ],
+  "systemLogs": [
+    { "logId": 1, "transactionId": 1, "eventType": "Transaction created", "createdAt": "2025-09-18T11:20:05Z", "message": "Transaction 1 Successfully initiated" }
+  ],
+  "complexTransaction": {
+    "transactionId": 1,
+    "amount": 15000.00,
+    "currency": "RWF",
+    "timestamp": "2025-09-18T11:20:00Z",
+    "status": "PENDING",
+    "category": { "categoryId": 1, "name": "Food", "description": "Food purchases" },
+    "participants": [
+      { "id": 1, "role": "payer", "user": { "userId": 1, "fullName": "Naomi", "phoneNumber": "0788553245", "createdAt": "2025-09-18T10:15:30Z" } },
+      { "id": 2, "role": "receiver", "user": { "userId": 2, "fullName": "Oladimeji", "phoneNumber": "0791204732", "createdAt": "2025-09-18T10:16:00Z" } }
+    ],
+    "logs": [
+      { "logId": 1, "eventType": "Transaction created", "createdAt": "2025-09-18T11:20:05Z", "message": "Transaction 1 Successfully initiated" }
+    ]
+  }
+}
+
+

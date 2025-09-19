@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/system_log.schema.json",
+  "title": "SystemLog",
+  "type": "object",
+  "properties": {
+    "logId": { "type": "integer", "minimum": 1 },
+    "transactionId": { "type": "integer", "minimum": 1 },
+    "eventType": { "type": "string", "minLength": 1 },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "message": { "type": "string" }
+  },
+  "required": ["logId", "eventType", "createdAt"],
+  "additionalProperties": false
+}
+
+

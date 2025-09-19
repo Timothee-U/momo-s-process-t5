@@ -69,6 +69,15 @@ Step 3: Navigate to http://localhost:8000
 `uvicorn web_api:app --reload`
 API available at http://localhost:8000
 
+# Database Design
+- ERD: commit team-created diagram export under `docs/erd_diagram.png` or `.pdf`
+- SQL setup: see `database/momo_sms_t5db.sql`
+- JSON models: schemas in `schemas/`, examples in `examples/` (see `examples/json_schemas.json`)
+- JSON mapping notes: `docs/json_modeling.md`
+
+# AI Usage & Attribution
+- See `docs/ai_usage_log.md` for permitted AI usage, attributions, and reviewer sign-offs.
+
 # Features
 ## Core Features  
 

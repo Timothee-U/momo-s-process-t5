@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/user.schema.json",
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "userId": { "type": "integer", "minimum": 1 },
+    "fullName": { "type": "string", "minLength": 1 },
+    "phoneNumber": { "type": "string", "minLength": 7 },
+    "createdAt": { "type": "string", "format": "date-time" }
+  },
+  "required": ["userId", "fullName", "phoneNumber", "createdAt"],
+  "additionalProperties": false
+}
+
+

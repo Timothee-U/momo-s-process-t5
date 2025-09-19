@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/transaction.schema.json",
+  "title": "Transaction",
+  "type": "object",
+  "properties": {
+    "transactionId": { "type": "integer", "minimum": 1 },
+    "amount": { "type": "number", "minimum": 0, "multipleOf": 0.01 },
+    "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "status": { "type": "string", "enum": ["PENDING", "COMPLETED", "FAILED"] },
+    "categoryId": { "type": "integer", "minimum": 1 }
+  },
+  "required": ["transactionId", "amount", "currency", "timestamp", "status"],
+  "additionalProperties": false
+}
+
+
