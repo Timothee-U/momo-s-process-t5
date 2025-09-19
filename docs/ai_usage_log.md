@@ -2,12 +2,8 @@
 
 Date: 2025-09-19
 
-Permitted uses only:
-- Grammar and syntax checks in documentation.
+AI use cases:
+- Grammar and syntax checks in documentation for files in /docs.
 - Research recall for JSON modeling best practices (no new business logic created).
-
-
-Reviewer sign-off:
-- Team members to review and commit any edits to confirm understanding.
 
 
