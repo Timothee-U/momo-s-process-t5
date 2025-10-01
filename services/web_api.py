@@ -2,6 +2,14 @@
 from pathlib import Path
 import sqlite3
 
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello, MoMo Transactions API is running!"}
+
 def get_conn(db_path: Path | str) -> sqlite3.Connection:
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
