@@ -103,6 +103,7 @@ if __name__ == "__main__":
         transaction_body = None
         for sms in sms_messages:
             if '@body' in sms and 'TxId:' in sms['@body']:
+                print("I am in here ")
                 transaction_body = sms['@body']
                 print(f"Found transaction body: {transaction_body}")
                 break

@@ -1,0 +1,21 @@
+{
+  "transactions": [
+    {
+      "transactionId": 73214484437,
+      "amount": 1000.0,
+      "currency": "RWF",
+      "timestamp": "2024-05-10T16:31:39Z",
+      "status": "COMPLETED",
+      "type": "PAYMENT",
+      "recipient": {
+        "name": "Jane Smith",
+        "phoneNumber": "12845"
+      },
+      "balance": {
+        "newBalance": 1000.0
+      },
+      "fee": 0.0,
+      "rawText": "TxId: 73214484437. Your payment of 1,000 RWF to Jane Smith 12845 has been completed at 2024-05-10 16:31:39. Your new balance: 1,000 RWF. Fee was 0 RWF.Kanda*182*16# wiyandikishe muri poromosiyo ya BivaMoMotima, ugire amahirwe yo gutsindira ibihembo bishimishije."
+    }
+  ]
+}

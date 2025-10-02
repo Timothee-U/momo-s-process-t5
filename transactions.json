@@ -1,0 +1,25 @@
+{
+  "transactions": [
+    {
+      "transactionId": 37832903831,
+      "amount": 24900.0,
+      "currency": "RWF",
+      "timestamp": "2025-01-16T00:13:22Z",
+      "status": "COMPLETED",
+      "categoryId": 1,
+      "recipient": {
+        "name": "Robert Brown",
+        "phoneNumber": "23478"
+      },
+      "balance": {
+        "newBalance": 4900.0
+      },
+      "fee": 0.0,
+      "rawText": "TxId: 37832903831. Your payment of 24,900 RWF to Robert Brown 23478 has been completed at 2025-01-16 00:13:22. Your new balance: 4,900 RWF. Fee was 0 RWF."
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-10-01T08:59:35Z",
+    "totalTransactions": 1
+  }
+}
